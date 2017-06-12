@@ -15,7 +15,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 #materialize gem for simple style elements
-gem 'materialize-scss'
+gem 'materialize-sass'
 #figaro is used to set the environment variables from config/application.yml
 gem 'figaro'
 # Use jquery as the JavaScript library
