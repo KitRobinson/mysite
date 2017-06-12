@@ -27,6 +27,12 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# carrierwave for direct file uploads
+gem 'carrierwave', '0.10.0'
+# minimagic for image resizing
+gem "mini_magick"
+# fog for interacting with amazon web services
+gem "fog"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
