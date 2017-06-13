@@ -4,5 +4,7 @@ class Post < ActiveRecord::Base
 	has_many :comments
 	has_many :posts_tags
 	has_many :tags, through: :posts_tags
-	
+
+	validates :title, :content, :image_url, presence: true
+	validates :title, uniqueness: true
 end
