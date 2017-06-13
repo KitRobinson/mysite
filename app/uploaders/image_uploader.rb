@@ -1,6 +1,6 @@
 class ImageUploader < CarrierWave::Uploader::Base
  
-  include CarrierWave::MiniMagick
+  # include CarrierWave::MiniMagick
  
   storage :file
   #storage fog
