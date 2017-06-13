@@ -31,7 +31,7 @@ gem 'carrierwave', '~>1.0'
 #and carreirwave direct to send them to S3
 gem 'carrierwave_direct'
 # minimagic for image resizing
-gem "mini_magick"
+# gem "mini_magick"
 # fog for interacting with amazon web services
 gem "fog"
 # Use ActiveModel has_secure_password
