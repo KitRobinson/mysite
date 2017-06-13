@@ -26,9 +26,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-
-# carrierwave for direct file uploads
-gem 'carrierwave', '0.10.0'
+#carreirwave for file transfer
+gem 'carrierwave', '~>1.0'
+#and carreirwave direct to send them to S3
+gem 'carrierwave_direct'
 # minimagic for image resizing
 gem "mini_magick"
 # fog for interacting with amazon web services

@@ -1,3 +1,3 @@
 class Post < ActiveRecord::Base
-	mount_uploader :name, ImageUploader
+	mount_uploader :image_url, ImageUploader
 end
